@@ -74,6 +74,10 @@
   function = "proxy-requests"
 
 [[edge_functions]]
+  path = "/proxy/*"
+  function = "proxy-requests-wildcard" 
+
+[[edge_functions]]
   path = "/environment"
   function = "environment"
 
