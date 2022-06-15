@@ -1,8 +1,6 @@
-import { Context } from "netlify:edge";
-
 const ALLOWED_IPS = ["98.38.232.100"];
 
-export default async (request, context) => {
+export default async (request) => {
   const clientIp = request.headers.get("x-nf-client-connection-ip");
   if (!ALLOWED_IPS.includes(clientIp)) {
     return new Response(
