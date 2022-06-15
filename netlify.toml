@@ -62,6 +62,11 @@
   function = "log"
 
 [[edge_functions]]
+  path = "/ip-block-example"
+  function = "ip-block-example"
+
+
+[[edge_functions]]
   path = "/country-block"
   function = "country-block"
 

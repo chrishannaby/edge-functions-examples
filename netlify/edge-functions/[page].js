@@ -24,10 +24,12 @@ import pageCountryBlock from "../../pages/country-block/index.js";
 import pageLocalizedContent from "../../pages/localized-content/index.js";
 import pageProxyRequests from "../../pages/proxy-requests/index.js";
 import pageEnvironment from "../../pages/environment/index.js";
+import pageIpBlock from "../../pages/ip-block/index.js";
 
 // The keys here correspond to the path in the request to `/example/PATH`
 const pages = {
   home: pageHome,
+  "ip-block": pageIpBlock,
   hello: pageHello,
   transform: pageTransform,
   include: pageInclude,
