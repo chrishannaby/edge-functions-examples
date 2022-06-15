@@ -63,7 +63,7 @@
 
 [[edge_functions]]
   path = "/ip-block-example"
-  function = "ip-block-example"
+  function = "ip-block"
 
 
 [[edge_functions]]
